@@ -9,7 +9,7 @@ FUNCTION Solution(A,B):
         print(system is inconsistent)
       ELSE IF:
          solve usng back substitution
-END OF FUNCTION
+END FUNCTION
         FUNCTION matrix_sum(A,B):
 
 
