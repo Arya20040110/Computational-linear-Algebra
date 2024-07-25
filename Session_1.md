@@ -1,7 +1,16 @@
 ## psuedocode 
 
 ```python
-FUNCTION matrix_sum(A,B):
+FUNCTION Solution(A,B):
+     create Augmented matrix : K=[A|B]
+      Reduce in Row Reduced Echloen Form
+      Rank = no of nonzero rows of EERF
+      if Rank(k)!=Rank(A):
+        print(system is inconsistent)
+      ELSE IF:
+         solve usng back substitution
+END OF FUNCTION
+        FUNCTION matrix_sum(A,B):
 
 
 END FUNCTION
